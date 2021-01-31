@@ -1,0 +1,36 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(249 126 180 / 98%);
+}
+.inputs{
+    padding:9px;
+}
+fieldset, textarea, .inputs, h1, h4{
+    resize: none;
+    background-color: #fff;
+}
+fieldset{
+    border: 1px #fff solid;
+    margin: auto;
+    margin-top: 60px;
+    width: 50%;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h4, .inputs{
+    font-size: 12px;
+    margin-left: 30px;
+}
+.sub_but{
+    padding: 8px 19px;
+    border-radius: 18px;
+    font-size: 13px;
+    border: 3px black solid;
+    background: #000;
+    margin: auto;
+    margin-top: 16px;
+    margin-left: 7cm;
+    color: #fff;
+}
