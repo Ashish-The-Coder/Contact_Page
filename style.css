@@ -6,6 +6,7 @@
 }
 body{
     background: linear-gradient(to bottom right,  #df6589ff 29%,#7A05A8, #5416FD );
+    overflow: hidden;
 }
 hr{
     width: 80%;
@@ -45,7 +46,9 @@ h1{
     margin: 15px auto;
 }
 textarea{
-    width: 90%;
+    width: 665.5px;
+    max-width: 665.5px;
+    height: 131px;
     margin-bottom: 0;
 }
 .sub_but{
@@ -68,7 +71,10 @@ textarea{
     background-color: rgb(84, 22, 253);
     color: #df6589ff;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 320px){
+    fieldset{width: 100%;}
+}
+@media only screen and (min-width: 321px) and (max-width: 768px){
     body{
         height: 145vh; 
         background: repeating-linear-gradient(to bottom right,  #df6589ff,rgb(122, 5, 168),rgb(84, 22, 253));
